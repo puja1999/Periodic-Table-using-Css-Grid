@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+body {
+    font-family: sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+    color: #000;
+}
+
+.table-1{
+    display: grid;
+    grid-template-columns: repeat(17, auto) ;
+    grid-gap: .5vw;
+}
+
+.element {
+    height: 4vw;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
+}
+
+.num{
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/* Helium to the top right */
+.element-2{
+    grid-column-start: 18;
+}
+
+/* B and Al to the right */
+.element-5,
+.element-13 {
+    grid-column-start: 13;
+}
+
+.table-2{
+  display:grid;
+  grid-template-columns: repeat(15, 1fr);
+  margin-top: 30px;
+  grid-gap: .5vw;
+}
+
+.elements{
+    height: 4vw;
+    border-radius: 3px;
+    background: rgb(91, 194, 234);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
+  }
+
+.table-3{
+  display:grid;
+  grid-template-columns: repeat(10, 1fr) ;
+  margin-top: 30px;
+  grid-gap: .5vw;
+}
+
+.elementss{
+  height: 4vw;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 100%;
+
+}
+
+/* colours to identify different elements */
+.noble{
+  background: #ff0080;
+}
+
+.alkali {
+  background: rgba(0, 76, 139, 0.699);
+}
+
+.alkaline{
+  background: rgba(116, 0, 139, 0.788);
+}
+
+.transition{
+  background: yellow;
+  
+}
+
+.semimetal{
+  background: peru;
+}
+
+.basic-metal{
+  background: tomato;
+}
+
+.halogen{
+  background: orangered;
+}
+
+.lanthanide{
+  background: rgba(139, 39, 0, 0.877);
+}
+
+.actinide{
+  background: green;
+}
+.nonmetal{
+  background: rgba(0, 255, 213, 0.61);
+}
+
